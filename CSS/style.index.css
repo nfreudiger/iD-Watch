@@ -1,0 +1,157 @@
+body 	{
+/* Reset */
+margin: 0;
+padding: 0;
+
+/* Base */
+color: black;
+background-color: #f5fef4;
+
+/* Typography */
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+line-height: 1.6;
+
+/* Base */
+border-top: 20px solid #114b5f;
+border-bottom: 10px solid #114b5f;
+}
+
+h1 {
+text-align: center;
+font-weight: bold;
+font-size: 60px;
+padding: 30px;
+margin: 0 0 20px 0;
+}
+
+h2 {
+font-size: 28px;
+padding: 0;
+margin: 0 0 10px 0;
+text-align: center;
+}
+
+h3 {
+font-size: 18px;
+padding: 0;
+margin: 0 0 16px 0;
+text-align: center;
+}
+
+h4 {
+font-size: 18px;
+font-style: italic;
+padding: 0;
+margin: 0 0 16px 0;
+}
+
+.swiss {
+  font-size: 22px;
+  text-align: center;
+  font-style: oblique;
+  color: red;
+  padding-top: 20px;
+  margin: 0 0 16px 0;
+  }
+
+p {
+text-align: center;
+}
+
+ul, ol {
+margin: 0 0 32px 0;
+padding: 0;
+list-style-position: inside;
+}
+
+img {
+width:100%
+}
+
+.main-menu ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.main-menu li {
+margin: 10px;
+flex: 1 0 auto;
+}
+
+.main-menu a {
+text-decoration: none;
+font-size: 18px;
+text-align: center;
+color: black;
+display: block;
+background-color: #f5fef4;
+border: 1px solid black;
+border-radius: 4px;
+padding: 10px 20px;
+}
+
+.main-menu a.current{
+  background-color: #456990;
+  color: black;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+  background-color: #114b5f;
+  color: #f5fef4;
+}
+
+.logo {
+display: block;
+width: 200px;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.logo2 {
+display: flex;
+width: 200px;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.wrapper {
+max-width: 800px;
+margin: 0 auto;
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.banner {
+background: #FFD166 url(images/pers_2.jpg) no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+height: 300px;
+margin-bottom: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer {
+text-align: left;
+}
+
+.icons-container {
+flex: auto;
+align-self: flex-end;
+text-align: right;
+}
+
+.img-container li, ul{
+display: block;
+}
+
+.txt-container{
+padding: 40px 20px 20px 70px;
+  }
